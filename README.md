@@ -1,13 +1,13 @@
-# gmsmith
+# canvassmith
 
-GM engine for spritesmith
+node-canvas engine for spritesmith
 
 ## Getting Started
-Install the module with: `npm install gmsmith`
+Install the module with: `npm install canvassmith`
 
 ```javascript
-var gmsmith = require('gmsmith');
-gmsmith.awesome(); // "awesome"
+var canvassmith = require('canvassmith');
+canvassmith.awesome(); // "awesome"
 ```
 
 ## Documentation
