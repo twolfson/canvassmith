@@ -1,0 +1,49 @@
+{
+  "name": "canvassmith",
+  "description": "node-canvas engine for spritesmith",
+  "version": "0.1.0",
+  "homepage": "https://github.com/twolfson/canvassmith",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twolfson/canvassmith.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twolfson/canvassmith/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/twolfson/canvassmith/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/canvassmith",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "preinstall": "gm help",
+    "test": "doubleshot --timeout 60000"
+  },
+  "dependencies": {
+    "obj-extend": "~0.1.0",
+    "temporary": "0.0.5",
+    "async": "~0.2.7",
+    "canvas": "~1.0.2"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17",
+    "doubleshot": "~1.0.2",
+    "spritesmith-engine-test": "~0.1.0"
+  },
+  "keywords": [
+    "phantomjs",
+    "spritesmith",
+    "image",
+    "layout"
+  ]
+}
