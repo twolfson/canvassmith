@@ -1,4 +1,4 @@
-# canvassmith
+# canvassmith [![Donate on Gittip](http://badgr.co/gittip/twolfson.png)](https://www.gittip.com/twolfson/)
 
 [node-canvas][canvas] engine for [spritesmith][spritesmith].
 
