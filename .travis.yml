@@ -7,5 +7,13 @@ matrix:
   allow_failures:
     - node_js: "0.11"
 
+install:
+  # Install canvas dependencies
+  - sudo apt-get update -y
+  - sudo apt-get install libcairo2-dev libjpeg8-dev libpango1.0-dev libgif-dev build-essential g++ -y
+
+  # Install node modules
+  - npm install
+
 notifications:
   email: false
