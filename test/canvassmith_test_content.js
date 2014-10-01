@@ -7,8 +7,5 @@ var smith = require('../lib/canvassmith'),
 module.exports = extend({}, commonTest, {
   'canvassmith': function () {
     this.smith = smith;
-
-    var expectedDir = __dirname + '/expected_files/';
-    this.expectedFilepaths = [expectedDir + '/multiple.png'];
   }
 });
