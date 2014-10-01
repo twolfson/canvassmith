@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.2.3 - Added upgrade for `npm` to fix `node@0.8` in Travis CI
+
 0.2.2 - Upgraded to `spritesmith-engine-test@1.2.1` and removed local expected images
 
 0.2.1 - Fixed broken dependency in Travis CI
