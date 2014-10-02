@@ -37,7 +37,7 @@
   "devDependencies": {
     "grunt": "~0.3.17",
     "mocha": "~1.21.4",
-    "spritesmith-engine-test": "~1.2.1"
+    "spritesmith-engine-test": "~2.0.0-dev-0"
   },
   "keywords": [
     "phantomjs",
