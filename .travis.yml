@@ -3,6 +3,9 @@ node_js:
   - "0.11"
   - "0.10"
   - "0.8"
+  - "iojs"
+  - "iojs-v2.0.0"
+  - "iojs-v1.8.0"
 matrix:
   allow_failures:
     - node_js: "0.11"
