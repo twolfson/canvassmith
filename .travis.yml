@@ -6,13 +6,12 @@ node_js:
   - "iojs"
   - "iojs-v2.0.0"
   - "iojs-v1.8.0"
+  - "iojs-v1.0.4"
 matrix:
   allow_failures:
     - node_js: "0.11"
 
 before_install:
-  # Upgrade `npm` to avoid semver issues
-  - npm install npm@1.x.x -g
 
 install:
   # Install canvas dependencies
