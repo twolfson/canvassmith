@@ -29,16 +29,15 @@
     "test": "mocha --timeout 60000"
   },
   "dependencies": {
-    "canvas": "^1.2.2",
-    "async": "~0.2.7",
+    "async": "1.4.2",
     "canvas": "^1.2.3",
     "obj-extend": "~0.1.0",
-    "temporary": "0.0.5"
+    "temporary": "0.0.8"
   },
   "devDependencies": {
-    "grunt": "~0.3.17",
-    "mocha": "~1.21.4",
-    "spritesmith-engine-test": "~2.0.0"
+    "grunt": "0.4.5",
+    "mocha": "2.3.3",
+    "spritesmith-engine-test": "2.1.0"
   },
   "keywords": [
     "phantomjs",
