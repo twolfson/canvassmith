@@ -1,7 +1,7 @@
 {
   "name": "canvassmith",
   "description": "node-canvas engine for spritesmith",
-  "version": "0.2.5",
+  "version": "0.3.0",
   "homepage": "https://github.com/twolfson/canvassmith",
   "author": {
     "name": "Todd Wolfson",
@@ -29,10 +29,10 @@
     "test": "mocha --timeout 60000"
   },
   "dependencies": {
-    "obj-extend": "~0.1.0",
-    "temporary": "0.0.5",
     "async": "~0.2.7",
-    "canvas": "~1.1.1"
+    "canvas": "~1.2.11",
+    "obj-extend": "~0.1.0",
+    "temporary": "0.0.5"
   },
   "devDependencies": {
     "foundry": "~4.3.2",
