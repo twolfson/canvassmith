@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.3.0 - Upgraded to `canvas@1.2.11` for `node@4.0` support
+
 0.2.5 - Added `foundry` for release
 
 0.2.4 - Upgraded to `spritesmith-engine-test@2.0.0` and moved to `mocha`
