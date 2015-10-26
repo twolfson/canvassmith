@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.2.5 - Added `foundry` for release
+
 0.2.4 - Upgraded to `spritesmith-engine-test@2.0.0` and moved to `mocha`
 
 0.2.3 - Added upgrade for `npm` to fix `node@0.8` in Travis CI
