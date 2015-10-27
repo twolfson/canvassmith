@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.3.1 - Updated supported node version to `>= 0.10.0`
+
 0.3.0 - Upgraded to `canvas@1.2.11` for `node@4.0` support
 
 0.2.5 - Added `foundry` for release
