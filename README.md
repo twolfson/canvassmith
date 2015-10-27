@@ -23,7 +23,7 @@ npm install -g node-gyp
 ## Getting Started
 Install the module with: `npm install canvassmith`
 
-```javascript
+```js
 // Convert images into canvassmith objects
 var images = ['img1.jpg', 'img2.png'];
 canvassmith.createImages(this.images, function handleImages (err, imgs) {
