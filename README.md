@@ -1,18 +1,23 @@
 # canvassmith [![Build status](https://travis-ci.org/twolfson/canvassmith.png?branch=master)](https://travis-ci.org/twolfson/canvassmith)
 
-[node-canvas][canvas] engine for [spritesmith][spritesmith].
+[node-canvas][canvas] engine for [spritesmith][].
 
-[canvas]: https://github.com/learnboost/node-canvas
+[canvas]: https://github.com/Automattic/node-canvas
 [spritesmith]: https://github.com/Ensighten/spritesmith
 
 ## Requirements
-Due to dependance on [node-canvas](https://github.com/learnboost/node-canvas), you must install [Cairo](http://cairographics.org/).
+Due to dependance on [node-canvas][canvas], you must install [Cairo][].
 
-Instructions on how to do this are provided in the [node-canvas wiki](https://github.com/LearnBoost/node-canvas/wiki/_pages).
+Instructions on how to do this are provided in the [node-canvas wiki][canvas-wiki].
 
-Additionally, you will need to install [node-gyp](https://github.com/TooTallNate/node-gyp/)
-```shell
-sudo npm install -g node-gyp
+Additionally, you will need to install [node-gyp][].
+
+[Cairo]: http://cairographics.org/
+[canvas-wiki]: https://github.com/Automattic/node-canvas/wiki/_pages
+[node-gyp]: https://github.com/nodejs/node-gyp
+
+```bash
+npm install -g node-gyp
 ```
 
 ## Getting Started
