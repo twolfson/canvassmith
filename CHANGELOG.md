@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.4.0 - Cleaned up technical debt (e.g. bespoke `concat-stream`)
+
 0.3.2 - Replaced `grunt` with `twolfson-style` for linting
 
 0.3.1 - Updated supported node version to `>= 0.10.0`
