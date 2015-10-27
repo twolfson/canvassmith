@@ -34,8 +34,7 @@
   "dependencies": {
     "async": "~0.2.7",
     "canvas": "~1.2.11",
-    "obj-extend": "~0.1.0",
-    "temporary": "0.0.5"
+    "concat-stream": "~1.5.1"
   },
   "devDependencies": {
     "foundry": "~4.3.2",
