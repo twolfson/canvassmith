@@ -5,5 +5,8 @@ var canvassmith = require('../lib/canvassmith');
 // Run spritesmith-engine-test suite
 spritesmithEngineTest.run({
   engine: canvassmith,
-  engineName: 'canvassmith'
+  engineName: 'canvassmith',
+  tests: {
+    renderGifCanvas: false
+  }
 });
