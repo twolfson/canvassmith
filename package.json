@@ -1,7 +1,7 @@
 {
   "name": "canvassmith",
   "description": "node-canvas engine for spritesmith",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "homepage": "https://github.com/twolfson/canvassmith",
   "author": {
     "name": "Todd Wolfson",

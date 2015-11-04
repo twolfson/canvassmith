@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.4.2 - Updated link for engine spec to spritesmith-engine-spec
+
 0.4.1 - Upgraded to `spritesmith-engine-test@3.0.0` to clean up testing technical debt
 
 0.4.0 - Cleaned up technical debt (e.g. bespoke `concat-stream`)
