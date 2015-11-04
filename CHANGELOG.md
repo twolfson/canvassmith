@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.4.1 - Upgraded to `spritesmith-engine-test@3.0.0` to clean up testing technical debt
+
 0.4.0 - Cleaned up technical debt (e.g. bespoke `concat-stream`)
 
 0.3.2 - Replaced `grunt` with `twolfson-style` for linting
