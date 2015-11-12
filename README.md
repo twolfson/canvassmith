@@ -47,7 +47,9 @@ canvassmith.createImages(this.images, function handleImages (err, imgs) {
 ## Documentation
 This module was built to the specification for spritesmith engines.
 
-https://github.com/twolfson/spritesmith-engine-spec
+**Specification version:** 1.1.0
+
+https://github.com/twolfson/spritesmith-engine-spec/tree/1.1.0
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint using `npm run lint` and test via `npm test`.
