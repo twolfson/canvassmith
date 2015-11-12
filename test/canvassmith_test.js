@@ -1,10 +1,10 @@
 // Load in dependencies
 var spritesmithEngineTest = require('spritesmith-engine-test');
-var canvassmith = require('../lib/canvassmith');
+var Canvassmith = require('../lib/engine');
 
 // Run spritesmith-engine-test suite
 spritesmithEngineTest.run({
-  engine: canvassmith,
+  engine: Canvassmith,
   engineName: 'canvassmith',
   tests: {
     renderGifCanvas: false

@@ -24,22 +24,33 @@ npm install -g node-gyp
 Install the module with: `npm install canvassmith`
 
 ```js
-// Convert images into canvassmith objects
-var images = ['img1.jpg', 'img2.png'];
-canvassmith.createImages(this.images, function handleImages (err, imgs) {
-  // Create a canvas to draw onto (200 pixels wide, 300 pixels tall)
-  canvassmith.createCanvas(200, 200, function (err, canvas) {
-    // Add each image at a specific location (upper left corner = {x, y})
-    var coordinatesArr = [{x: 0, y: 0}, {x: 50, y: 50}];
-    imgs.forEach(function (img, i) {
-      var coordinates = coordinatesArr[i];
-      canvas.addImage(img, coordinates.x, coordinates.y);
-    }, canvas);
+// Load in our dependencies
+var Canvassmith = require('canvassmith');
 
-    // Export canvas to image
-    canvas['export']({format: 'png'}, function (err, result) {
-      result; // Binary string representing a PNG image of the canvas
-    });
+// Create a new engine
+var canvassmith = new Canvassmith();
+
+// Interpret some images from disk
+canvassmith.createImages(['img1.jpg', 'img2.png'], function handleImages (err, imgs) {
+  // If there was an error, throw it
+  if (err) {
+    throw err;
+  }
+
+  // We recieve images in the same order they were given
+  imgs[0].width; // 50 (pixels)
+  imgs[0].height; // 100 (pixels)
+
+  // Create a canvas that fits our images (200px wide, 300px tall)
+  var canvas = canvassmith.createCanvas(200, 300);
+
+  // Add the images to our canvas (at x=0, y=0 and x=50, y=100 respectively)
+  canvas.addImage(imgs[0], 0, 0);
+  canvas.addImage(imgs[1], 50, 100);
+
+  // Export canvas to image
+  canvas['export']({format: 'png'}, function handleOuput (err, result) {
+    result; // Binary string representing a PNG image of the canvas
   });
 });
 ```
@@ -47,9 +58,9 @@ canvassmith.createImages(this.images, function handleImages (err, imgs) {
 ## Documentation
 This module was built to the specification for spritesmith engines.
 
-**Specification version:** 1.1.0
+**Specification version:** 2.0.0
 
-https://github.com/twolfson/spritesmith-engine-spec/tree/1.1.0
+https://github.com/twolfson/spritesmith-engine-spec/tree/2.0.0
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint using `npm run lint` and test via `npm test`.

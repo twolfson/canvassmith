@@ -21,7 +21,7 @@
       "url": "https://github.com/twolfson/canvassmith/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/canvassmith",
+  "main": "lib/engine",
   "engines": {
     "node": ">= 0.10.0"
   },
