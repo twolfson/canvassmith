@@ -1,4 +1,6 @@
 # canvassmith changelog
+0.4.3 - Added `specVersion` to repository and added `spritesmith-engine` to keywords
+
 0.4.2 - Updated link for engine spec to spritesmith-engine-spec
 
 0.4.1 - Upgraded to `spritesmith-engine-test@3.0.0` to clean up testing technical debt
