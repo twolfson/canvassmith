@@ -33,8 +33,7 @@
   },
   "dependencies": {
     "async": "~0.2.7",
-    "canvas": "~1.2.11",
-    "concat-stream": "~1.5.1"
+    "canvas": "~1.2.11"
   },
   "devDependencies": {
     "foundry": "~4.3.2",
