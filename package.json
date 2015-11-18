@@ -33,7 +33,8 @@
   },
   "dependencies": {
     "async": "~0.2.7",
-    "canvas": "~1.2.11"
+    "canvas": "~1.2.11",
+    "vinyl-file": "~1.3.0"
   },
   "devDependencies": {
     "foundry": "~4.3.2",
