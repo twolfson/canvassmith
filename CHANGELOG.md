@@ -1,4 +1,6 @@
 # canvassmith changelog
+1.0.0 - Upgraded to `spritesmith-engine-spec@2.0.0`
+
 0.4.4 - Forgot to merge in our branch
 
 0.4.3 - Added `specVersion` to repository and added `spritesmith-engine` to keywords
