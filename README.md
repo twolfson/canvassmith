@@ -6,19 +6,13 @@
 [spritesmith]: https://github.com/Ensighten/spritesmith
 
 ## Requirements
-Due to dependance on [node-canvas][canvas], you must install [Cairo][].
+Due to dependance on [node-canvas][canvas], you must install [Cairo][]. However, you shouldn't compile [node-canvas][canvas], since `canvassmith` uses [prebuilt binaries][canvas-prebuilt].
 
 Instructions on how to do this are provided in the [node-canvas wiki][canvas-wiki].
 
-Additionally, you will need to install [node-gyp][].
-
 [Cairo]: http://cairographics.org/
 [canvas-wiki]: https://github.com/Automattic/node-canvas/wiki/_pages
-[node-gyp]: https://github.com/nodejs/node-gyp
-
-```bash
-npm install -g node-gyp
-```
+[canvas-prebuilt]: https://github.com/chearon/node-canvas-prebuilt
 
 ## Getting Started
 Install the module with: `npm install canvassmith`
