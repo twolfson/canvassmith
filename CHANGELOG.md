@@ -1,4 +1,6 @@
 # canvassmith changelog
+1.2.0 - Removed support for Node.js < 4
+
 1.1.0 - Upgraded to `canvas@1.3.15` via @aleksanyan in #4
 
 1.0.0 - Upgraded to `spritesmith-engine-spec@2.0.0`
