@@ -15,12 +15,7 @@
   "bugs": {
     "url": "https://github.com/twolfson/canvassmith/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/twolfson/canvassmith/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "lib/engine",
   "engines": {
     "node": ">= 4.0.0"
