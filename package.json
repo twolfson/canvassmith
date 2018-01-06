@@ -44,7 +44,7 @@
     "jscs": "~2.4.0",
     "jshint": "~2.8.0",
     "mocha": "~1.21.4",
-    "spritesmith-engine-test": "~4.0.0",
+    "spritesmith-engine-test": "~5.0.0",
     "twolfson-style": "~1.6.1"
   },
   "keywords": [
