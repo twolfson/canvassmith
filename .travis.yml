@@ -1,12 +1,13 @@
 sudo: false
 language: node_js
 node_js:
-  - "7"
+  - "10"
+  - "9"
+  - "8"
   - "6"
-  - "4"
 matrix:
   allow_failures:
-    - node_js: "7"
+    - node_js: "9"
 
 # Use `apt` from `node-canvas`
 # https://github.com/Automattic/node-canvas/blob/v1.3.0/.travis.yml#L14-L19
