@@ -1,4 +1,6 @@
 # canvassmith changelog
+1.4.1 - Bumped canvas to ~1.6.11 via @danny6514 in #7
+
 1.4.0 - Moved to Node.js >= 6 to fix Travis CI and match Node.js LTS
 
 1.3.0 - Added support for Vinyl@2
