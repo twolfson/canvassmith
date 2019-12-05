@@ -1,4 +1,6 @@
 # canvassmith changelog
+1.5.0 - Moved to `canvas@2.6.1` to use prebuilt binaries via @inozemtsev91 in #8
+
 1.4.1 - Bumped canvas to ~1.6.11 via @danny6514 in #7
 
 1.4.0 - Moved to Node.js >= 6 to fix Travis CI and match Node.js LTS
