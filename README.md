@@ -8,13 +8,14 @@
 ## Requirements
 By default, binaries for macOS, Linux and Windows will be downloaded.
 But if you don't have a supported OS or processor architecture the module will be compiled on your system.
-This requires several dependencies from [node-canvas][canvas], you must install [Cairo][] and Pango.
+This requires several dependencies from [node-canvas][canvas], you must install [Cairo][] and [Pango][].
 
 Instructions on how to do this are provided in the [node-canvas wiki][canvas-wiki].
 
 Additionally, you will need to install [node-gyp][].
 
 [Cairo]: http://cairographics.org/
+[Pango]: https://pango.gnome.org/
 [canvas-wiki]: https://github.com/Automattic/node-canvas/wiki/_pages
 [node-gyp]: https://github.com/nodejs/node-gyp
 
