@@ -6,7 +6,9 @@
 [spritesmith]: https://github.com/Ensighten/spritesmith
 
 ## Requirements
-Due to dependance on [node-canvas][canvas], you must install [Cairo][].
+By default, binaries for macOS, Linux and Windows will be downloaded.
+But if you don't have a supported OS or processor architecture the module will be compiled on your system.
+This requires several dependencies from [node-canvas][canvas], you must install [Cairo][] and Pango.
 
 Instructions on how to do this are provided in the [node-canvas wiki][canvas-wiki].
 
