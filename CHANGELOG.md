@@ -1,4 +1,6 @@
 # canvassmith changelog
+1.7.0 - Updated dependencies via @striezel in #10
+
 1.6.0 - Updated dependencies via @striezel in #9
 
 1.5.0 - Moved to `canvas@2.6.1` to use prebuilt binaries via @inozemtsev91 in #8
